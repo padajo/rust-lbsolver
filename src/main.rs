@@ -179,7 +179,7 @@ impl LetterBoxedSolver {
 
         let mut visited = BinaryHeap::new();
 
-        let mut return_after = 4;
+        let return_after = 4;
 
         // find a solution with 1 word, then 2, then 3 etc
         // this will find the shortest solution
